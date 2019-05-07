@@ -2,9 +2,9 @@
 class Flog < Formula
   desc "A fake log generator for common log formats"
   homepage "https://github.com/mingrammer/flog"
-  url "https://github.com/mingrammer/flog/releases/download/v0.3.0/flog_0.3.0_darwin_amd64.tar.gz"
-  version "0.3.0"
-  sha256 "418c78c4ae003863d60f4303e68a543e467d4af19589d6d6eba64898d6406c8f"
+  url "https://github.com/mingrammer/flog/releases/download/v0.3.1/flog_0.3.1_darwin_amd64.tar.gz"
+  version "0.3.1"
+  sha256 "6bf7290ae20a4a61260da6eab0890709d7ca19a90c0d3aef2e24421851a7213c"
 
   def install
     bin.install "flog"
