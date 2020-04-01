@@ -2,16 +2,16 @@
 class Flog < Formula
   desc "A fake log generator for common log formats"
   homepage "https://github.com/mingrammer/flog"
-  version "0.4.0"
+  version "0.4.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/mingrammer/flog/releases/download/v0.4.0/flog_0.4.0_darwin_amd64.tar.gz"
-    sha256 "b41c344a1af64cacdc2493f76b738cdbae9e654c2244cb11120a34ca5a6667bb"
+    url "https://github.com/mingrammer/flog/releases/download/v0.4.1/flog_0.4.1_darwin_amd64.tar.gz"
+    sha256 "8c7be4aa50a0f2f72fcd4de63bb12e814a228dcea06398108ffdf1c34a2e2a41"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/mingrammer/flog/releases/download/v0.4.0/flog_0.4.0_linux_amd64.tar.gz"
-      sha256 "67ded75a74d435c7e0b729acef9d2a6ec5b66e52734b5750c68daf7552e54e1d"
+      url "https://github.com/mingrammer/flog/releases/download/v0.4.1/flog_0.4.1_linux_amd64.tar.gz"
+      sha256 "3cf5235490d15299704a6f5728205939e334b9818a71389321967dfaef2c0574"
     end
   end
 
